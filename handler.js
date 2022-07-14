@@ -764,7 +764,7 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 
-global.thumb = 'https://telegra.ph/file/538d54a829bd198085a87.jpg'
+global.thumb = 'https://telegra.ph/file/96cc47cedf00f91da4598.jpg'
 
 global.flaaa = [
  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
