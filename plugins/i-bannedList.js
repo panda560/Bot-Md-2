@@ -19,7 +19,7 @@ let fetch = require('node-fetch')
 `.trim()).join('\n') : ''}
 ╰────
 `.trim()
-    conn.send3TemplateButtonImg,await(await fetch(fla + 'https://telegra.ph/file/96cc47cedf00f91da4598.jpg `${command}`)).buffer(), caption, wm, `Menu`, `${usedPrefix}menu`, m, { contextInfo: { mentionedJid: conn.parseMention(caption) }, mentions: await conn.parseMention(caption) })
+    conn.sendButtonLoc(m.chat, await(await fetch(fla + `${command}`)).buffer(), caption, wm, `Menu`, `${usedPrefix}menu`, m, { contextInfo: { mentionedJid: conn.parseMention(caption) }, mentions: await conn.parseMention(caption) })
 }
 handler.help = ['bannedlist']
 handler.tags = ['info']
