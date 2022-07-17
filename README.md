@@ -8,4 +8,4 @@ Jangan lupa untuk mengikuti github ku
 * My WhatsApp [`Click Here`](https://wa.me/6285850539404?text=Assalamualaikum)
 * My Youtube [`Click Here`](https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ)
 
-
+NOTE JIKA ADA YANG EROR SILAHKAN HUBUNGI SAYA
