@@ -35,7 +35,7 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*%JarotOffc@^%version*
+*%𝗗𝗮𝗿𝗸 𝗢𝗳𝗳𝗰@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -197,11 +197,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 𝐀𝐥𝐩𝐢 𝐛𝐨𝐭',
+        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 𝗗𝗮𝗿𝗸 𝐛𝐨𝐭',
         rows: [
           { title: 'Allmenu', rowId: `${_p}? all` },
-          { title: 'infoalpi', rowId: `${_p}? infoalpi` },
-          { title: 'infojarot', rowId: `${_p}? infojarot` },
+          { title: '', rowId: `${_p}? infoalpi` },
+          { title: '', rowId: `${_p}? infojarot` },
           { title: 'Game', rowId: `${_p}? game` },
           { title: 'XP', rowId: `${_p}? xp` },
           { title: 'Stiker', rowId: `${_p}? stiker` },
